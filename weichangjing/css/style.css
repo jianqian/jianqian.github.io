@@ -39,9 +39,6 @@ body {
     /*background-repeat:no-repeat;*/
     /*background-position:center;*/
 }
-.img9{
-    background: url("../img/9.png");
-}
 /*s1页*/
 .s1 .header img{
   position: absolute;
@@ -73,6 +70,27 @@ body {
 .s1 .header img:nth-of-type(5) {
     width: 64%;
     left: 50%;
-    margin-left: -30%;
+    margin-left: -32%;
     top: 30%;
+}
+/*首页文字部分*/
+.s1 .main{
+    position: absolute;
+    top:36%;
+}
+.s1 .main img:nth-of-type(1){
+    width: 40%;
+}
+
+.s1 .main img:nth-of-type(2){
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.img9{
+    width: 55%;
+    margin: 0 auto;
+    background: url("../img/9.png");
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
 }
