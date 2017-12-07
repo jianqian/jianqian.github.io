@@ -94,3 +94,10 @@ body {
     -moz-background-size:100% 100%;
     background-size:100% 100%;
 }
+/*首页footer部分文字*/
+.s1 .footer{
+    position: absolute;
+    width: 100%;
+    color: #09debe;
+    top: 75%;
+}
