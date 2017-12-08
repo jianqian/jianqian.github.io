@@ -23,6 +23,21 @@ body {
 
 /*自定义样式*/
 
+h1{
+    width: 80%;
+    height:40px;
+    font-size: 30px;
+    margin: 0 auto;
+    background: url("../img/images/s2_03.png") no-repeat;
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    color: #09debe;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+p{
+    color: #00fbc3;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 /*向下翻页按钮*/
 .swiper-button-next{
     position: absolute;
@@ -33,11 +48,9 @@ body {
     margin-left:-13.5px;
     transform: rotateZ(-90deg);
 }
-.s1{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     height: 100%;
     background: url("../img/bj.png");
-    /*background-repeat:no-repeat;*/
-    /*background-position:center;*/
 }
 /*s1页*/
 .s1 .header img{
@@ -103,11 +116,53 @@ body {
     bottom:auto;
 }
 
-.S1 .footer img{
+.s1 .footer p img{
     position: absolute;
 }
 
-.S1 .footer img:nth-of-type(1){
-    top: auto;
-    bottom:1%;
+.s1 .footer p img:nth-of-type(1){
+    width: 120%;
+    left:0%;
 }
+
+.s1 .footer p img:nth-of-type(2) {
+    width: 120%;
+    left: -10%;
+}
+
+/*s2-s7footer自定义样式*/
+.s2 .footer p img,.s3 .footer p img,.s4 .footer p img,.s5 .footer p img,.s6 .footer p img,.s7 .footer p img{
+    position: absolute;
+}
+
+.s2 .footer p img:nth-of-type(1),.s3 .footer p img:nth-of-type(1),.s4 .footer p img:nth-of-type(1),.s5 .footer p img:nth-of-type(1),.s6 .footer p img:nth-of-type(1),.s7 .footer p img:nth-of-type(1){
+    width: 120%;
+    left:0%;
+    bottom:0;
+}
+
+.s2 .footer p img:nth-of-type(2),.s3 .footer p img:nth-of-type(2),.s4 .footer p img:nth-of-type(2),.s5 .footer p img:nth-of-type(2),.s6 .footer p img:nth-of-type(2),.s7 .footer p img:nth-of-type(2){
+    width: 120%;
+    left:-10%;
+    bottom:0;
+}
+
+/*s2自定义样式*/
+.s2 .header{
+    padding-top: 70px;
+}
+.s2 .main{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding:30px 27px;
+    -moz-opacity:0.3;
+    background: radial-gradient(#00e7f9 -24%, #00e7f9 100%);}
+
+.s2 .main p{
+    opacity: 1;
+    font-size: 15px;
+    margin: 0 27px;
+    line-height: 30px;
+}
+
