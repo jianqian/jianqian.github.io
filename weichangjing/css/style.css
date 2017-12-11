@@ -169,6 +169,7 @@ h1{
     padding-bottom: 30px;
     background: url("../img/12.png");
     background-size:cover;
+    position: relative;
 }
 .s2 .main p:nth-of-type(1){
     padding-top: 27px;
@@ -180,4 +181,14 @@ h1{
     line-height: 30px;
     color: #00fbc3;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.s2 .main span{
+    position: absolute;
+    width:120px;
+    left: 50%;
+    margin-left: -60px;
+    top: 97%;
+    text-align: center;
+    background: linear-gradient(to right, #0cdeeb , #02fe9b);
+    border-radius: 10px;
 }
