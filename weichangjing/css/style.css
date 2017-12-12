@@ -27,6 +27,26 @@ body {
 
 /*自定义样式*/
 
+/*音乐样式*/
+
+.music{
+    z-index:100;
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    animation: gogogo 2s infinite linear;
+}
+
+@-webkit-keyframes gogogo {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
 h1{
     width: 80%;
     height:40px;
@@ -89,6 +109,9 @@ h1{
     top: 30%;
     animation-iteration-count:infinite;
 }
+.swing{
+    transform-origin: center;
+}
 /*首页文字部分*/
 .s1 .main{
     position: absolute;
@@ -107,7 +130,6 @@ h1{
     width: 55%;
     margin: 0 auto;
     background: url("../img/9.png");
-    -moz-background-size:100% 100%;
     background-size:100% 100%;
 }
 /*首页footer部分文字*/
@@ -127,29 +149,20 @@ h1{
 .s1 .footer p img:nth-of-type(1){
     width: 120%;
     left:0%;
+    bottom:0;
 }
 
 .s1 .footer p img:nth-of-type(2) {
     width: 120%;
     left: -10%;
+    bottom:0;
+}
+/*s2-s7自定义样式*/
+
+.s2 .header,.s3 .header,.s4 .header,.s5 .header,.s6 .header,.s7 .header{
+    padding-top: 50px;
 }
 
-.s1 .music{
-    position: absolute;
-    right: 8%;
-    top: 3%;
-    -webkit-animation: gogogo 2s infinite linear;
-}
-@-webkit-keyframes gogogo {
-    0%{
-        -webkit-transform: rotate(0deg);
-
-    }
-    100%{
-        -webkit-transform: rotate(360deg);
-    }
-}
-/*s2-s7footer自定义样式*/
 .s2 .footer{
     height: 70px;
 }
@@ -170,9 +183,6 @@ h1{
 }
 
 /*s2自定义样式*/
-.s2 .header,.s3 .header,.s4 .header,.s5 .header,.s6 .header,.s7 .header{
-    padding-top: 70px;
-}
 .s2 .main{
     padding:8px;
     text-align: left;
@@ -201,4 +211,69 @@ h1{
     text-align: center;
     background: linear-gradient(to right, #0cdeeb , #02fe9b);
     border-radius: 10px;
+}
+/*调整320像素条件下修改*/
+@media screen and (max-width: 320px){
+    .s2 .main p{
+        font-size: 10px;
+        margin: 0 20px;
+        line-height: 20px;
+        color: #00fbc3;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    h1{
+        width: 80%;
+        height:40px;
+        font-size: 30px;
+        margin: 0 auto;
+        background: url("../img/images/s2_03.png") no-repeat;
+        background-size:100% 100%;
+        color: #09debe;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .s1 .header img:nth-of-type(1){
+        width: 25px;
+        top:128px;
+        left: 50px;
+        animation-iteration-count:infinite;
+    }
+    .s1 .header img:nth-of-type(2){
+        width: 55px;
+        top:85px;
+        right: 37px;
+        animation-iteration-count:infinite;
+    }
+
+    .s1 .header img:nth-of-type(3) {
+        width: 45px;
+        left: 35px;
+        bottom: 185px;
+        animation-iteration-count:infinite;
+    }
+
+    .s1 .header img:nth-of-type(4) {
+        width: 36px;
+        right: 44px;
+        bottom: 210px;
+        animation-iteration-count:infinite;
+    }
+
+    .s1 .header img:nth-of-type(5) {
+        width: 58%;
+        left: 50%;
+        margin-left: -29%;
+        top: 27%;
+        animation-iteration-count:infinite;
+    }
+    .s1 .main .img9{
+        width: 45%;
+        font-size: 15px;
+        margin: 0 auto;
+        background: url("../img/9.png");
+        background-size:100% 100%;
+    }
+    .s1 .main{
+        position: absolute;
+        top:35%;
+    }
 }
