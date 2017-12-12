@@ -1,0 +1,4 @@
+1.不限制验证方式
+2.注意代码规范
+3.按照【原生JavaScript实现表单验证.jpg && 原生JavaScript实现表单验证.exe】制作
+4.使用 HTML、CSS、JavaScript 实现

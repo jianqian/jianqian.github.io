@@ -1,0 +1,48 @@
+.QQ{
+    background-color: #e04c38;
+}
+ul{
+    width: 50%;
+    margin:0 auto;
+    padding: 0;
+    background-color: #303448;
+    /*margin-left:10%;*/
+}
+div{
+    margin: auto;
+}
+li{
+    color: #f8fcf8;
+    line-height: 40px;
+    background-color: #303448;
+    text-align: center;
+    list-style: none;
+    float: left;
+    width: 24.5%;
+    height: 40px;
+    border: 1px solid #000000;
+}
+#A{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    clear: both;
+}
+#B{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    clear: both;
+}
+#C{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    clear: both;
+}
+#D{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    clear: both;
+}

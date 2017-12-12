@@ -116,7 +116,7 @@ h1{
     width: 64%;
     left: 50%;
     margin-left: -32%;
-    top: 30%;
+    top: 27%;
     animation-iteration-count:infinite;
 }
 .swing{
@@ -142,6 +142,9 @@ h1{
     background: url("../img/9.png");
     background-size:100% 100%;
 }
+/*首页虚线部分*/
+
+
 /*首页footer部分文字*/
 .s1 .footer{
     position: absolute;

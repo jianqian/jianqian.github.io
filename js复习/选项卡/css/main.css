@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*! 盛邦升华 */
+.QQ {
+  background-color: silver; }
+
+ul {
+  width: 306px;
+  margin: auto;
+  padding: 0; }
+
+div {
+  margin: auto; }
+
+li {
+  list-style: none;
+  float: left;
+  width: 100px;
+  height: 20px;
+  border: 1px solid #000000; }
+
+#A {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  clear: both; }
+
+#B {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  clear: both; }
+
+#C {
+  width: 300px;
+  height: 300px;
+  background-color: springgreen;
+  clear: both; }
