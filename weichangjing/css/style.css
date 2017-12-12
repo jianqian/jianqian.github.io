@@ -246,6 +246,57 @@ h1{
         animation: dashedni 8s infinite linear;
     }
 }
+@media screen and (max-width: 320px) {
+    .dashed{
+        position: absolute;
+        top: 24%;
+        left: 15%;
+
+    }
+    .dashed div:nth-of-type(1){
+        width:220px;
+        height: 220px;
+        border-radius: 50%;
+        border:  dashed 1px #00fbc3;
+        animation: dashedshun 8s infinite linear;
+    }
+    .dashed div:nth-of-type(2){
+        width:250px;
+        height: 250px;
+        border-radius: 50%;
+        border:  dashed 1px #00fbc3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -125px;
+        margin-left: -125px;
+        animation: dashedni 8s infinite linear;
+    }
+    .dashed div:nth-of-type(3){
+        width:280px;
+        height: 280px;
+        border-radius: 50%;
+        border:  dashed 1px #00fbc3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -140px;
+        margin-left: -140px;
+        animation: dashedshun 8s infinite linear;
+    }
+    .dashed div:nth-of-type(4){
+        width:310px;
+        height: 310px;
+        border-radius: 50%;
+        border:  dashed 1px #00fbc3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -155px;
+        margin-left: -155px;
+        animation: dashedni 8s infinite linear;
+    }
+}
 
 
 /*首页文字部分*/
