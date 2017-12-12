@@ -139,10 +139,8 @@
     </div>
 
     <!--音乐-->
-    <div class="music">
-        <audio src="mp3/Snigellin - Sakura Tears.mp3"  id="mp3"  hidden="true" autostart loop ></audio>
-        <img src="img/musicIcon.png" onclick="playClicked(this)" value=">">
-    </div>
+    <audio src="mp3/Snigellin - Sakura Tears.mp3" id="mp3" autoplay loop></audio>
+    <span id="mp3btn"><img src="img/musicIcon.png"></span>
 
     <!-- 分页器 -->
     <div class="swiper-pagination"></div>
@@ -157,20 +155,5 @@
 <!--animate  js-->
 <script src="js/swiper.animate1.0.2.min.js"></script>
 <script src="js/script.js"></script>
-<script>
-    //音乐
-    var music = document.getElementById('.music');
-    function playClicked(element)
-    {
-        if(mp3.paused)
-        {
-            mp3.play();
-            music.style.animationPlayState="running"
-        }else{
-            mp3.pause();
-            music.style.animationPlayState="paused"
-        }
-    }
-</script>
 </body>
 </html>

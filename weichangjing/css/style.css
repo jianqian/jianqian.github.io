@@ -29,12 +29,22 @@ body {
 
 /*音乐样式*/
 
-.music{
-    z-index:100;
+#mp3btn{
     position: absolute;
-    right: 8%;
-    top: 3%;
+    right:5%;
+    top:4%;
+    z-index:100;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(73, 78, 78, 0.72);
+    border: solid 3px rgba(72, 65, 65, 0.55);
+    text-align: center;
+    line-height: 30px;
     animation: gogogo 2s infinite linear;
+}
+#mp3btn img{
+    width: 10px;
 }
 
 @-webkit-keyframes gogogo {
