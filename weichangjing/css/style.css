@@ -869,3 +869,80 @@ h1{
     line-height: 20px;
     padding-left: 10px;
 }
+
+
+
+/*s4自定义样式*/
+.s4 .main{
+    background: url("../img/s4bg.png");
+    background-size:100% 100%;
+    color: #26faae;
+    margin:20px;
+}
+.s4 .main div{
+    text-align: left;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.s4 .main div:nth-of-type(1){
+    padding-top: 30px;
+    height: 20px;
+    width: 180px;
+    margin: 0 auto;
+    padding-bottom:20px;
+}
+.s4 .main div:nth-of-type(1) img{
+     width: 20px;
+}
+.s4 .main div:nth-of-type(2){
+    margin-top: 20px;
+}
+.s4 .main .s4first .s4firstimg1{
+    width: 20px;
+}
+.s4 .main .s4first .s4firstimg2{
+    height: 18px;
+    margin-left: 20px;
+    width: 80%;
+}
+.s4 .main .s4first .s4firstimg3{
+    height: 18px;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.s4 .main .s4second .s4firstimg1{
+    width: 20px;
+}
+.s4 .main .s4second .s4firstimg2{
+    height: 18px;
+    margin-left: 20px;
+    width: 70%;
+}
+.s4 .main .s4second .s4firstimg3{
+    height: 18px;
+    width: 35%;
+    margin-left: 20px;
+}
+
+.s4 .main .s4third .s4firstimg1{
+    width: 20px;
+}
+.s4 .main .s4third .s4firstimg2{
+    height: 18px;
+    margin-left: 20px;
+    width: 70%;
+}
+.s4 .main .s4third .s4firstimg3{
+    height: 18px;
+    width: 35%;
+    margin-left: 20px;
+}
+.s4 .main .s4fourth{
+    color: #00e1b4;
+    text-align: center;
+    width:85%;
+    font-size: 14px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
