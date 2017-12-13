@@ -856,3 +856,9 @@ h1{
 
 }
 
+.s3 .s3text{
+    color:#26faae;
+    font-size:13px;
+    width: 80%;
+    text-algin:left;
+}
