@@ -602,6 +602,19 @@ h1{
     top: 9%;
     line-height:134px;
 }
+
+.s3 .s3text{
+    color:#26faae;
+    font-size:13px;
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 80%;
+    border-left:2px solid #26faae;
+    line-height: 20px;
+    padding-left: 10px;
+}
 @media screen and (max-width: 414px) {
     .s3dashed{
         position: absolute;
@@ -854,21 +867,21 @@ h1{
         line-height:134px;
     }
 
+    .s3 .s3text{
+        color:#26faae;
+        font-size:13px;
+        text-align: left;
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        width: 80%;
+        border-left:2px solid #26faae;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+
 }
 
-.s3 .s3text{
-    color:#26faae;
-    font-size:13px;
-    width: 80%;
-    text-align: left;
-    position: absolute;
-    top: 80%;
-    left: 15%;
-    width: 70%;
-    border-left:2px solid #26faae;
-    line-height: 20px;
-    padding-left: 10px;
-}
 
 
 
@@ -945,4 +958,79 @@ h1{
     font-size: 14px;
     margin: 30px auto;
     padding-bottom: 20px;
+}
+@media screen and (max-width: 320px){
+    .s4 .main{
+        background: url("../img/s4bg.png");
+        background-size:100% 100%;
+        color: #26faae;
+        margin:10px;
+    }
+    .s4 .main div{
+        text-align: left;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .s4 .main div:nth-of-type(1){
+        padding-top: 30px;
+        /*height: 15px;*/
+        width: 180px;
+        margin: 0 auto;
+        padding-bottom:15px;
+    }
+    .s4 .main div:nth-of-type(1) img{
+        width: 20px;
+    }
+    .s4 .main div:nth-of-type(2){
+        margin-top: 20px;
+    }
+    .s4 .main .s4first .s4firstimg1{
+        width: 12px;
+    }
+    .s4 .main .s4first .s4firstimg2{
+        height: 12px;
+        margin-left: 20px;
+        width: 70%;
+    }
+    .s4 .main .s4first .s4firstimg3{
+        height: 12px;
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .s4 .main .s4second .s4firstimg1{
+        width: 12px;
+    }
+    .s4 .main .s4second .s4firstimg2{
+        height: 12px;
+        margin-left: 20px;
+        width: 60%;
+    }
+    .s4 .main .s4second .s4firstimg3{
+        height: 12px;
+        width: 30%;
+        margin-left: 20px;
+    }
+
+    .s4 .main .s4third .s4firstimg1{
+        width: 12px;
+    }
+    .s4 .main .s4third .s4firstimg2{
+        height: 12px;
+        margin-left: 20px;
+        width: 40%;
+    }
+    .s4 .main .s4third .s4firstimg3{
+        height: 12px;
+        width: 20%;
+        margin-left: 20px;
+    }
+    .s4 .main .s4fourth{
+        color: #00e1b4;
+        text-align: center;
+        width:85%;
+        font-size: 12px;
+        margin: 30px auto;
+        padding-bottom: 20px;
+    }
 }
