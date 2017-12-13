@@ -2,6 +2,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+::before,
+::after{
+    content:"";
+    clear:both;
+    display: block;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -76,6 +82,21 @@ h1{
     right:auto;
     margin-left:-13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size: 17px 34px;
+    animation: buttonnext 1.2s infinite linear;
+}
+@keyframes buttonnext {
+    0%{
+        bottom:0;
+        opacity:1;
+    }
+    100%{
+        bottom:12px;
+        opacity:0;
+     }
+
 }
 .s1,.s2,.s3,.s4,.s5,.s6,.s7{
     height: 100%;
@@ -338,12 +359,31 @@ h1{
     width: 120%;
     left:0%;
     bottom:0;
+    animation: footerimg1 2s alternate infinite linear;
 }
 
 .s1 .footer p img:nth-of-type(2) {
     width: 120%;
     left: -10%;
     bottom:0;
+    animation: footerimg2 2s alternate infinite linear;
+}
+@keyframes footerimg1 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:30px;
+    }
+
+}
+@keyframes footerimg2 {
+    0%{
+        left:-10px;
+    }
+    100%{
+        left:-30px;
+    }
 }
 /*s2-s7自定义样式*/
 .headerp{
@@ -370,12 +410,14 @@ h1{
     width: 120%;
     left:0%;
     bottom:0;
+    animation: footerimg1 2s alternate infinite linear;
 }
 
 .s2 .footer p img:nth-of-type(2),.s3 .footer p img:nth-of-type(2),.s4 .footer p img:nth-of-type(2),.s5 .footer p img:nth-of-type(2),.s6 .footer p img:nth-of-type(2),.s7 .footer p img:nth-of-type(2){
     width: 120%;
     left:-10%;
     bottom:0;
+    animation: footerimg2 2s alternate infinite linear;
 }
 
 /*s2自定义样式*/
@@ -909,6 +951,9 @@ h1{
     margin: 0 auto;
     padding-bottom:20px;
 }
+.s4 .main div:nth-of-type(1) p span{
+    float: left;
+}
 .s4 .main div:nth-of-type(1) img{
      width: 20px;
 }
@@ -1038,4 +1083,66 @@ h1{
         margin: 30px auto;
         padding-bottom: 20px;
     }
+}
+
+/*s5自定义样式*/
+.s5 .main{
+    width: 90%;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-left:10%;
+    color: #00e1b4;
+}
+.s5 .main .s5main{
+    float: left;
+    margin-left:10px;
+    background: url("../img/12.png");
+    background-size: 100% 100%;
+    margin-top: 20px;
+    padding:10px 10px;
+}
+.s5 .main .s5main img{
+    width: 100px;
+}
+.s5 .main .s5main p{
+    font-size: 12px;
+    height:20px;
+    line-height: 20px;
+}
+.s5 .main .s5main p span{
+    width:70px;
+    margin: 0 auto;
+    display: block;
+     color: #000;
+     padding:0px 7px;
+     font-size: 12px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #0cdeeb , #02fe9b);
+
+}
+
+
+/*s6自定义样式*/
+.s6 .main {
+    font-size: 15px;
+    color: #0cdeeb;
+    border-left: 1px dashed #0cdeeb;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    height: 300px;
+    margin-top: 40px;
+}
+.s6 .main ul{
+    list-style-type: disc;
+    -webkit-padding-start: 14px;
+}
+.s6 .main ul li{
+    color: #000;
+    line-height: 3px;
+    background: url("../img/s6textbg.png");
+    background-size: 100% 100%;
+    height:20px;
+    padding:6px 15px;
+    /*list-style-image: url(../img/s6img.png);*/
 }
