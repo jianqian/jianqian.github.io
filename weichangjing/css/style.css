@@ -860,5 +860,12 @@ h1{
     color:#26faae;
     font-size:13px;
     width: 80%;
-    text-algin:left;
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 70%;
+    border-left:2px solid #26faae;
+    line-height: 20px;
+    padding-left: 10px;
 }
