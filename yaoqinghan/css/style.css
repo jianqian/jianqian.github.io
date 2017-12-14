@@ -218,43 +218,23 @@ body {
     bottom:0px;
     left: 0px;
 }
-/*.s3 .footer img:nth-of-type(1){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-/*.s3 .footer img:nth-of-type(2){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-/*.s4 .footer img:nth-of-type(1){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-/*.s4 .footer img:nth-of-type(2){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-/*.s5 .footer img:nth-of-type(1){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-/*.s5 .footer img:nth-of-type(2){*/
-    /*width: 100%;*/
-    /*position: absolute;*/
-    /*bottom:0px;*/
-    /*left: 0px;*/
-/*}*/
-
+.s2 .footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.s2 .footer img:nth-of-type(1){
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+}
+.s2 .footer img:nth-of-type(2){
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+}
 
 /*s2自定义样式*/
 .s2 .header {
