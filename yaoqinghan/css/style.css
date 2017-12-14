@@ -320,13 +320,12 @@ body {
 }
 .s5 .main{
     font-size: 13px;
-    padding-top: 30px;
     text-align: center;
     width: 90%;
-    margin: 0 auto;
     padding:15px;
     width: 80%;
     margin: 0 auto;
+    margin-top: 40px;
 }
 .s5 .main p{
     margin-bottom: 15px;
