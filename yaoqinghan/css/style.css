@@ -166,7 +166,11 @@ body {
     }
 }
 
-
+/*s2-s7*/
+.h2bottomimg{
+    width: 90%;
+    height:100%;
+}
 /*s1自定义样式*/
 .s1 .main {
     width: 80%;
