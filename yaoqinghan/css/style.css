@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+::before,
+::after{
+    content:"";
+    clear:both;
+    display: block;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: url("../img/bg.jpg");
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;}
+/*自定义样式*/
+
+.s1,.s2,.s3,.s4,.s5{
+    height: 100%;
+    background: url("../img/bg.jpg");
+    background-size: 100% 100%;
+}
+.s1{
+    height: 100%;
+    background: url("../img/bg.jpg");
+    background-size: 100% 100%;
+}
+
+/*向下翻页按钮*/
+.swiper-button-next{
+    position: absolute;
+    top:auto;
+    bottom:2%;
+    left:50%;
+    right:auto;
+    margin-left:-13.5px;
+    transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size: 17px 34px;
+    animation: buttonnext 1.2s infinite linear;
+}
+@keyframes buttonnext {
+    0%{
+        bottom:0;
+        opacity:1;
+    }
+    100%{
+        bottom:12px;
+        opacity:0;
+    }
+
+}
+
+/*音乐样式*/
+
+#mp3btn{
+    position: absolute;
+    right:2%;
+    top:3%;
+    z-index:100;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(73, 78, 78, 0.72);
+    border: solid 3px rgba(72, 65, 65, 0.55);
+    text-align: center;
+    line-height: 30px;
+    animation: gogogo 2s infinite linear;
+}
+#mp3btn img{
+    width: 10px;
+}
+
+@-webkit-keyframes gogogo {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*s1自定义样式*/
+.s1 .header img{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -50%;
+    animation: headercircle 3s infinite linear;
+}
+@keyframes headercircle {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(-360deg);
+    }
+}
