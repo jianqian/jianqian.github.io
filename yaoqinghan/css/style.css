@@ -201,35 +201,18 @@ body {
 .s1 .main p span:nth-of-type(2){
     float: right;
 }
-.s1 .footer{
+.s1 .footer,.s2 .footer,.s3 .footer{
     width: 100%;
     position: absolute;
     bottom: 0px;
 }
-.s1 .footer img:nth-of-type(1){
+.s1 .footer img:nth-of-type(1),.s2 .footer img:nth-of-type(1),.s3 .footer img:nth-of-type(1){
     width: 100%;
     position: absolute;
     bottom:0px;
     left: 0px;
 }
-.s1 .footer img:nth-of-type(2){
-    width: 100%;
-    position: absolute;
-    bottom:0px;
-    left: 0px;
-}
-.s2 .footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-}
-.s2 .footer img:nth-of-type(1){
-    width: 100%;
-    position: absolute;
-    bottom:0px;
-    left: 0px;
-}
-.s2 .footer img:nth-of-type(2){
+.s1 .footer img:nth-of-type(2),.s2 .footer img:nth-of-type(2),.s3 .footer img:nth-of-type(2){
     width: 100%;
     position: absolute;
     bottom:0px;
@@ -253,4 +236,19 @@ body {
 }
 .s2 .main .s2mainbottomp{
     color: rgb(62, 220, 254);
+}
+/*s3自定义样式*/
+.s3 .header {
+    margin-top: 50px;
+}
+.s3 .main{
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding:15px;
+}
+.s3 .main p{
+    line-height: 23px;
 }
