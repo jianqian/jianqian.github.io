@@ -280,9 +280,8 @@ body {
 .s4 .main{
     font-size: 13px;
     /*padding-top: 40px;*/
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    padding:15px;
 }
 .s4 .main p{
     line-height: 17px;
@@ -290,9 +289,15 @@ body {
 .s4 .main .s4maindiv1{
     width: 100%;
     margin:30px auto;
+    text-align: center;
+}
+.s4 .main .s4maindiv1 div{
+    width: 300px;
+    margin: 0 auto;
 }
 .s4 .main .s4maindiv1 div img{
-    width: 360px;
+    width: 300px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 /*s5自定义样式*/
@@ -302,9 +307,8 @@ body {
 .s5 .main{
     font-size: 13px;
     text-align: center;
-    width: 90%;
-    padding:15px;
     width: 80%;
+    padding:15px;
     margin: 0 auto;
     margin-top: 40px;
 }
@@ -324,4 +328,11 @@ body {
     background:rgb(62, 220, 254);
     height: 40px;
     width: 100%;
+}
+
+
+
+.s5 .main,.s4 .main,.s3 .main,.s2 .main{
+    position: relative;
+    z-index: 100;
 }
