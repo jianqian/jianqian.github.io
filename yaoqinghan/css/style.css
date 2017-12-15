@@ -230,11 +230,10 @@ body {
 
 /*s2自定义样式*/
 .s2 .header {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .s2 .main{
     font-size: 13px;
-    padding-top: 30px;
     text-align: left;
     width: 90%;
     margin: 0 auto;
@@ -245,8 +244,11 @@ body {
 }
 .s2 .main .s2mainbottomp{
     margin-top: 20px;
-
     color: rgb(62, 220, 254);
+}
+.s2 .main .s2mainbottomp p{
+    height: 18px;
+    line-height: 18px;
 }
 /*s3自定义样式*/
 .s3 .header {
