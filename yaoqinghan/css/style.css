@@ -331,8 +331,8 @@ body {
 }
 
 
-
-.s5 .main,.s4 .main,.s3 .main,.s2 .main{
+/*s1-s5main定位*/
+.s5 .main,.s4 .main,.s3 .main,.s2 .main,.s1 .main{
     position: relative;
     z-index: 100;
 }
