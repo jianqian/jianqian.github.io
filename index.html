@@ -3,27 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <style>
+    body{
+        background:rgba(210, 210, 210, 0.41);
+    }
     .main{
         width:80%;
         margin: 0 auto;
         text-align: center;
         margin-top: 200px;
     }
-    .model{
+    .main .model{
         width: 150px;
     }
+    .main p{
+        font-size: 17px;
+    }
+    .main p span{
+        font-size: 30px;
+    }
+    .buttona{
+        width: 150px;
+        margin: 0 auto;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .buttona div{
+        float: left;
+        border: 1px solid #000;
+        width: 70px;
+        animation: buttona 2s infinite linear;
+    }
+    @keyframes buttona {
+         0%{
+
+         }
+         100%{
+
+         }
+     }
 </style>
 <body>
 <div class="header"></div>
 <div class="main">
     <img class="model" src="img/model.png" alt="">
-    <h1>在线预览</h1>
-    <p>
-    <a href="http://jianqian.github.io/weichangjing">微场景</a>
-    <a href="http://jianqian.github.io/yaoqinghan">邀请函</a>
-    </p>
+    <p><span>微场景</span>---杨瑞川</p>
+    <div class="buttona">
+    <div><a href="http://jianqian.github.io/weichangjing">微场景</a></div>
+    <div><a href="http://jianqian.github.io/yaoqinghan">邀请函</a></div>
+    </div>
 </div>
 <div class="footer"></div>
 </body>
