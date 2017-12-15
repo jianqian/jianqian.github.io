@@ -36,15 +36,17 @@
         float: left;
         border: 1px solid #000;
         width: 70px;
-        animation: buttona 2s infinite linear;
+        animation: buttona 1s linear;
     }
     @keyframes buttona {
-         0%{
-
-         }
-         100%{
-
-         }
+        0%{
+            margin-left:-100px;
+            transform: rotate(30deg);
+        }
+        100%{
+            margin-left: 0px;
+            transform: rotate(0deg);
+        }
      }
 </style>
 <body>
