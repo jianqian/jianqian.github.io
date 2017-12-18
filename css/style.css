@@ -1,5 +1,6 @@
 body{
-    background:url("../img/bga1_01_01.jpg");
+    background:url("../img/bga1_01_01.jpg") no-repeat;
+    background-size:cover;
 }
 .header,.container,.footer{
     background: #fff;
