@@ -2,65 +2,53 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>hello</title>
+    <title>杨</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<style>
-    body{
-        background:rgba(210, 210, 210, 0.41);
-    }
-    .main{
-        width:80%;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 80px;
-    }
-    .main .model{
-        width: 150px;
-    }
-    .main p{
-        font-size: 17px;
-    }
-    .buttona{
-        width: 150px;
-        margin: 0 auto;
-    }
-    a{
-        text-decoration: none;
-        color: #000;
-    }
-    .buttona div{
-        float: left;
-        border: 1px solid #000;
-        width: 70px;
-        height: 20px;
-        line-height: 20px;
-        animation: buttona 1.5s linear;
-    }
-    @keyframes buttona {
-        0%{
-            margin-left:-100px;
-            transform: rotate(360deg);
-        }
-        100%{
-            margin-left: 0px;
-            transform: rotate(0deg);
-        }
-    }
-    .buttona div a:hover{
-        color: red;
-    }
-</style>
 <body>
-<div class="header"></div>
-<div class="main">
-    <img class="model" src="img/model.png" alt="">
-    <p>欢迎来到杨瑞川的仓库</p>
-    <div class="buttona">
-    <div><a href="http://jianqian.github.io/weichangjing">微场景</a></div>
-    <div><a href="http://jianqian.github.io/yaoqinghan">邀请函</a></div>
+    <div class="header">
+        <h1 class="text-center">Hello World!</h1>
     </div>
-</div>
-<div class="footer"></div>
+    <div class="container">
+        <p>欢迎来到我的世界，我是杨瑞川。</p>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 imgsize">
+                <div class="thumbnail">
+                    <img src="img/1.jpg" alt="...">
+                    <div class="caption">
+                        <h3 class="text-center">微场景</h3>
+                        <p class="text-center">微场景练习</p>
+                        <p class="text-center"><a href="http://jianqian.github.io/weichangjing" class="btn btn-primary" target="_blank" role="button">微场景</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 imgsize">
+                <div class="thumbnail">
+                    <img src="img/2.png" alt="...">
+                    <div class="caption">
+                        <h3 class="text-center">邀请函</h3>
+                        <p class="text-center">双选会邀请函</p>
+                        <p class="text-center"><a href="http://jianqian.github.io/yaoqinghan" class="btn btn-primary" target="_blank" role="button">邀请函</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 imgsize">
+                <div class="thumbnail">
+                    <img src="img/sbsh.png" alt="...">
+                    <div class="caption">
+                        <h3 class="text-center">盛邦升华</h3>
+                        <p class="text-center">Html5和Css3</p>
+                        <p class="text-center"><a href="http://jianqian.github.io/yaoqinghanlianjie/h5shengbang/" class="btn btn-primary" target="_blank" role="button">盛邦升华</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+
+<script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

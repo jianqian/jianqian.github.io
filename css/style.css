@@ -1,0 +1,17 @@
+body{
+    background:url("../img/bga1_01_01.jpg");
+}
+.header,.container,.footer{
+    background: #fff;
+    opacity:0.9;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header h1{
+    padding-top: 30px;
+}
+.container .imgsize img{
+    width: 320px;
+    height: 320px;
+}
