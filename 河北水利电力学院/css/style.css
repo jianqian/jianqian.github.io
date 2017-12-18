@@ -1,7 +1,35 @@
 .navbar-default{
     background:#1D011B;
-    color:#cdbccc
+    color:#cdbccc;
+    height: 50px;
 }
 .navbar-default .navbar-nav>li>a{
-    color:#cdbccc
+    color:#cdbccc;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.navbar {
+     margin-bottom: 0px;
+     border: 0px solid transparent;
+    border-radius: 0;
+}
+.header-top img{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+}
+.header-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:#63065f;
+}
+.h1color h1{
+    font-weight:lighter;
+    color: #fff;
+    font-size: 60px;
+    font-family:方正行楷简体;
+    letter-spacing: -13px;
 }
