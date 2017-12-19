@@ -1,0 +1,19 @@
+/*!
+ * shengbangshenghua
+*/
+.bor{
+    border: 1px solid;
+    border-radius: 3px;
+}
+.bor:hover{
+    border: 1px solid;
+    border-radius: 3px;
+}
+h2,
+h3{
+    font-family:Segoe Script !important;
+    border-bottom: 1px solid #000;
+}
+p{
+    font-family:Segoe Print;
+}
