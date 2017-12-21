@@ -78,7 +78,7 @@ body {
 .member-image img{max-width: 100%; vertical-align: middle;}
 h3 {font-size: 24px; font-weight: normal; margin: 10px 0 0; text-transform: uppercase;}
 h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
-p {font-size: 14px; font-weight: 300; line-height: 22px; padding: 0 30px; margin-bottom: 10px;}
+p {font-size: 16px; font-weight: 300; line-height: 22px; padding: 0 30px; margin-bottom: 10px;}
 .social-touch a{display: inline-block;
     /*width: 27px;*/
     height: 26px; vertical-align: middle; margin: 0 2px;
