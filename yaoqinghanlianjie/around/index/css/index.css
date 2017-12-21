@@ -1,0 +1,83 @@
+/*...conter-inner样式...*/
+.yuan{
+	width: 109px;
+	margin-right: 18px;
+}
+.it{
+	width: 90px;
+	
+}
+.yuan,.it{
+	float: left;
+
+}
+.it h2{
+	font-family: Arial;
+	font-size: 13px;
+	color: #322e2b;
+}
+.it p{
+	font-size: 11px;
+	font-family: Arial;
+	color: #31233c;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.it img{
+	margin-bottom: 20px;
+}
+.pic2{
+	width: 235px;
+	border-top: 2px #cbcbcb solid;
+	border-bottom: 2px #cbcbcb solid;
+	padding-top: 20px;
+}
+.pic3{
+	margin-top: 20px;
+}
+.clear{
+	clear: both;
+}
+.italy,.sed{
+	float: left;
+}
+.sed{
+	width: 620px;
+	margin-left: 15px;
+}
+.du{
+	width: 300px;
+}
+.pic,.du{
+	float: left;
+}
+.pic{
+	margin-left: 50px;
+	margin-right: 15px;
+}
+.du h3{
+	font-size: 13px;
+	font-family: Corbel;
+	color: #3c2b31;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.du p{
+	font-size: 12px;
+	font-family: Arial;
+	color: #293036;
+	line-height: 125%;
+}
+.qui{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.pic,.du img{
+	margin-bottom: 30px;
+}
+.xian{
+	border-bottom: 2px #bebdbd solid;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+/*...conter-inner样式...*/

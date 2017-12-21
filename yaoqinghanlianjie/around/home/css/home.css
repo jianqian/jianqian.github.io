@@ -1,0 +1,98 @@
+/*...conter-inner样式...*/
+.yuan{
+	width: 109px;
+	margin-right: 18px;
+}
+.it{
+	width: 93px;
+	
+}
+.yuan,.it{
+	float: left;
+
+}
+.it h2{
+	font-family: Arial;
+	font-size: 13px;
+	color: #322e2b;
+}
+.it p{
+	font-size: 11px;
+	font-family: Arial;
+	color: #31233c;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.it img{
+	margin-bottom: 20px;
+}
+.pic2{
+	width: 235px;
+	border-top: 2px #cbcbcb solid;
+	border-bottom: 2px #cbcbcb solid;
+	padding-top: 20px;
+}
+.pic3{
+	margin-top: 20px;
+}
+.clear{
+	clear: both;
+}
+.italy,.sed{
+	float: left;
+}
+.sed{
+	width: 620px;
+	margin-left: 48px;
+	font-family:Arial; 
+	font-size:13px;
+	color: #2c2342;	
+}
+.sed p{
+	line-height: 150%;
+}
+.unde img,.undep{
+	float: left;
+}
+.unde img{
+	margin-right: 15px;
+}
+.unde{
+	margin-bottom: 22px;	
+}
+span{
+	color: #291f2c;
+	font-size: 14px;
+	font-weight: 700px;
+}
+.at,.for{
+	margin-top: 15px;
+	width: 295px;
+	line-height: 150%;
+}
+.at,.for,.jiao,.eos{
+	float: left;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.eos{
+	margin-left: 5px;
+}	
+.jiao,.eos{
+	line-height: 160%;
+}
+.eos li a{
+	color: #f0a02f;
+	font-family:Arial; 
+	font-size:13px;
+}
+.eos li a:hover{
+	text-decoration: none;
+}
+.for{
+	border-left: 2px #cdcdcd solid;
+	padding-left: 11px;
+	margin-left: 11px;
+}
+
+/*...conter-inner样式...*/
