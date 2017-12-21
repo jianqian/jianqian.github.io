@@ -1,14 +1,82 @@
-body{
-    /*background:url("../img/bga1_01_01.jpg") no-repeat;*/
-    background:url("../images/bg.webp") no-repeat;
-    background-size:100% 100%;
-    background-attachment:fixed
+html, body {
+    position: relative;
+    height: 100%;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
+.s1{
+    width: 100%;
+    height: 100%;
+    background:url("../img/bg.webp") no-repeat;
+    background-size:100% 100%;
+}
+.s2{
+    width: 100%;
+    height: 100%;
+    background:url("../img/bg3.jpg") no-repeat;
+    background-size:100% 100%;
+}
+.s3{
+    width: 100%;
+    height: 100%;
+    background:url("../img/bg1%20.webp") no-repeat;
+    background-size:100% 100%;
+}
+.s4{
+    width: 100%;
+    height: 100%;
+    background:url("../img/bg4.jpg") no-repeat;
+    background-size:100% 100%;
+}
+/*s1自定义动画*/
 /*css3动画*/
-body{ font-family: Lato,'Open Sans', sans-sarif; font-size: 16px; background-color: #1F1F1F; }
-*{margin: 0; padding: 0; box-sizing: border-box;}
-.container{margin: 0 auto; max-width: 1000px;}
-.row{width: 103%; float: left; margin: 110px -1.5%;}
+/*.s1 .effect-1{*/
+    /*width: 300px;*/
+    /*margin: 0 auto;*/
+/*}*/
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.row{width: 100%; float: left; margin: 10px auto;}
 
 .single-member1{
     width: 280px;
@@ -55,7 +123,7 @@ p {font-size: 14px; font-weight: 300; line-height: 22px; padding: 0 30px; margin
 /*= effect-1 css end =*/
 
 /*= effect-2 css =*/
-.effect-2{max-height: 302px; min-height: 302px; overflow: hidden;}
+.effect-2{max-height: 289px; min-height: 289px; overflow: hidden;}
 .effect-2 h3{padding-top: 7px; line-height: 33px;}
 .effect-2 .member-image{border-bottom: 5px solid #1fb554; height: 225px; overflow: hidden; width: 100%; transition: 0.4s; display: inline-block; float: none; vertical-align: middle;}
 .effect-2 .member-info{transition: 0.4s;}
@@ -65,12 +133,12 @@ p {font-size: 14px; font-weight: 300; line-height: 22px; padding: 0 30px; margin
 /*= effect-2 css end =*/
 
 /*= effect-3 css =*/
-.effect-3{max-height: 302px; min-height: 302px; overflow: hidden;}
+.effect-3{max-height: 289px; min-height: 289px; overflow: hidden;}
 .effect-3 h3{padding-top: 7px; line-height: 33px;}
 /*自定义图片样式*/
 .effect-3 .member-image img{
-     height: 220px;
- }
+    height: 220px;
+}
 /*自定义图片样式*/
 .effect-3 .member-image{border-bottom: 5px solid #e5642b; transition: 0.4s; height: 225px; width: 100%; display: inline-block; float: none; vertical-align: middle;}
 .effect-3 .member-info{transition: 0.4s;}
@@ -80,7 +148,7 @@ p {font-size: 14px; font-weight: 300; line-height: 22px; padding: 0 30px; margin
 /*= effect-3 css end =*/
 
 /*= effect-4 css =*/
-.effect-4{max-height: 302px; min-height: 302px; overflow: hidden;}
+.effect-4{max-height: 289px; min-height: 289px; overflow: hidden;}
 .effect-4 h3{line-height: 35px;}
 .effect-4 .member-image{position: absolute; width: 100%; transition: 0.4s;}
 .effect-4 .member-image img{width: 100%;}
@@ -144,3 +212,4 @@ p {font-size: 14px; font-weight: 300; line-height: 22px; padding: 0 30px; margin
 }
 /*= Media Query End
 =================== */
+/*s1自定义动画*/
