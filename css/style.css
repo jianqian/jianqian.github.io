@@ -248,55 +248,74 @@ p {font-size: 16px; font-weight: 300; line-height: 22px; padding: 0 30px; margin
     margin-right: 5%;
 }
 .s2 .container .s2bottom div:nth-of-type(1){
-    /*background: red;*/
-}
-.s2 .container .s2bottom div:nth-of-type(2){
-    /*background: red;*/
-}
-.s2 .container .s2bottom div:nth-of-type(3){
-    /*background: red;*/
-}
-.s2 .container .s2bottom div:nth-of-type(4){
-    /*background: red;*/
-}
-.s2 .container .s2bottom div:nth-of-type(1) h2{
     width: 150px;
     height: 150px;
-    line-height: 150px;
-    background: #ff0200ad;
+    line-height: 100px;
+    background: rgba(255, 47, 0, 0.8);
     border-radius: 50%;
     transition: 2s;
 }
-.s2 .container .s2bottom div:nth-of-type(1) h2:hover,.s2 .container .s2bottom div:nth-of-type(2) h2:hover,.s2 .container .s2bottom div:nth-of-type(3) h2:hover,.s2 .container .s2bottom div:nth-of-type(4) h2:hover{
+.s2 .container .s2bottom div:nth-of-type(2){
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+    background: rgba(255, 188, 0, 0.68);
+    border-radius: 50%;
+    transition: 2s;
+}
+.s2 .container .s2bottom div:nth-of-type(3){
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+    background:rgba(0, 67, 255, 0.65);
+    border-radius: 50%;
+    transition: 2s;
+}
+.s2 .container .s2bottom div:nth-of-type(4){
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+    background-color: rgba(251, 0, 255, 0.65);
+    border-radius: 50%;
+    transition: 2s;
+}
+.s2 .container .s2bottom div:nth-of-type(1) h2{
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*line-height: 150px;*/
+    /*background: #ff0200ad;*/
+    /*border-radius: 50%;*/
+    /*transition: 2s;*/
+}
+.s2 .container .s2bottom div:hover{
     border: 2px solid #fff;
-    /*animation:s2bottom1 2s ;*/
     color: #000;
     transform: rotateY(360deg);
     transition: 2s;
 }
 .s2 .container .s2bottom div:nth-of-type(2) h2{
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    background: #ffca00d4;
-    border-radius: 50%;
-    transition: 2s;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*line-height: 150px;*/
+    /*background: #ffca00d4;*/
+    /*border-radius: 50%;*/
+    /*transition: 2s;*/
 }
 .s2 .container .s2bottom div:nth-of-type(3) h2{
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    background: #67e40b8c;
-    border-radius: 50%;
-    transition: 2s;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*line-height: 150px;*/
+    /*background: #67e40b8c;*/
+    /*border-radius: 50%;*/
+    /*transition: 2s;*/
 }
 .s2 .container .s2bottom div:nth-of-type(4) h2{
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    background: #0087ffbd;
-    border-radius: 50%;
-    transition: 2s;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    /*line-height: 150px;*/
+    /*background: #0087ffbd;*/
+    /*border-radius: 50%;*/
+    /*transition: 2s;*/
 }
 /*s2自定义动画*/
 
